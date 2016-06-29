@@ -19,6 +19,7 @@ public class PrimeFactorsTest {
     @Parameters(name="Prime factors of {0} = {1}")
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
+        		{0, Arrays.asList()},	
                 {1L, Arrays.asList()},
                 {2L, Arrays.asList(2L)},
                 {3L, Arrays.asList(3L)},
